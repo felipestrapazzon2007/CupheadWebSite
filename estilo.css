@@ -1,0 +1,145 @@
+@font-face {
+    font-family: font3;
+    src: url(SansSerifFLF-Demibold.otf);
+}
+
+@font-face {
+    font-family: font1;
+    src: url(Madness\ Hyperactive.otf);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(Poppins-ExtraLight.ttf);
+}
+
+:root {
+
+    --cor-fundo: #FDC818;
+    --cor-subtítulo: #262626;
+    --cor-fundo2: #BAE9C7;
+    --cor-fundo3: #C84D46;
+    --cor-do-páragrafo: #433650;
+    --cor-link: #ffffff;
+    --fonte-paragrafo: font2;
+    --fonte-plataforma: font1;
+    --fonte-titulo:font3;
+}
+
+
+
+
+body {
+
+    background-color: var(--cor-fundo);
+    
+}
+
+h4 {
+
+    color: var(--cor-subtítulo);
+    text-align: center;
+    font-family: var(--fonte-paragrafo);
+    font-size: 17px;
+
+}
+
+.plataformas {
+
+    text-align: center;
+    color: var(--cor-link);
+    font-family: var(--fonte-titulo);
+    font-size: 50px; 
+    
+    
+}
+
+.Logotitulo {
+
+    text-align: center;
+    
+}
+
+a {
+
+    color: var(--cor-link);
+    text-decoration: none;
+    background: #2c2c2c;
+    border-right: 100px;
+    border-left: 100px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #2c2c2c;
+    text-align: center;
+}
+    
+
+
+
+.VID {
+
+    text-align: center;
+    background-color: #BAE9C7;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 40px;
+    
+}
+
+.wrapper {
+
+    text-align: center;
+    background: var(--cor-fundo3);
+    padding-top: 50px;
+    
+
+
+}
+
+
+h2 {
+
+    font-family: var(--fonte-titulo);
+    text-align: center;
+    margin-top: auto;
+    padding: 50px;
+    font-size: 50px;
+}
+
+p {
+
+    text-align: center;
+    margin-top: auto;
+    padding-block-end: 50px;
+    font-family: var(--fonte-paragrafo);
+    
+
+}
+
+.thank {
+
+    text-align: center;
+    padding-block-end: 50px;
+
+}
+
+.agradecimento {
+
+    background-color: #61A2C6;
+    text-align: center;
+
+}
+
+.final {
+
+    background-color: #61A2C6;
+    text-align: center;
+
+
+
+}
+
+
+    
+
